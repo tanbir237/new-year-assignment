@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    
+}
+
+/* Banner style */
+
+.banner{
+    background-image: url("../resources/Banner\ Image.png");
+    height: 600vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 50px;
+}
+
+.banner-text{
+    text-align: center;
+    color: #FFF;
+    padding: 150px 300px;
+}
+
+.banner-name{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner-tittle{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 10px;
+
+    
+}
