@@ -6,7 +6,7 @@
 
 }
 
-body{
+header, main {
     max-width: 1320px;
     width: 80%;
     margin: 0 auto;
@@ -138,10 +138,10 @@ body{
 
 /* Awesome section styles */
 
-.awesome-info{
-    
+.awesome-info {
+
     margin-bottom: 45px;
-    
+
 }
 
 .awesome-text {
@@ -174,9 +174,70 @@ body{
 
 }
 
-.awesome-img-1, .awesome-img-2 {
+.awesome-img-1,
+.awesome-img-2 {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 20px;
-    
+
+}
+
+
+/* Subscribe section style */
+
+.subscribe {
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 100px;
+}
+
+.subscribe-content {
+    text-align: center;
+}
+
+.subscribe-img {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.subscribe-tittle {
+    color: #070211;
+
+    margin-bottom: 20px;
+    font-size: 48px;
+
+    font-weight: 900;
+
+}
+
+.subscribe-para {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 35px;
+
+}
+
+form input,
+textarea {
+    border-radius: 50px 1px 0px 50px;
+    border: none;
+    background: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 200px;
+}
+
+.subs-btn {
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    color: #FFF;
+    background: #F00;
+    padding: 20px 50px;
+    margin-bottom: 80px;
 }
