@@ -127,10 +127,11 @@ main,
 }
 
 .join {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
+   padding: 10px;
+   background-color:#070211;
+   color: #FFF;
+   border: 0;
+   margin-left: 20px;
 }
 
 .midnight-img {
