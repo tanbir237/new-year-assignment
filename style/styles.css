@@ -310,7 +310,7 @@ footer {
 .address,
 .contact,
 .rights,
-.unsubs {
+.un-subs {
     margin-top: 100px;
     margin-bottom: 40px;
 }
@@ -319,7 +319,7 @@ footer {
 .number,
 .world,
 .rights-sp,
-.unsubs {
+.un-subs {
     color: #FFF;
 
     font-size: 18px;
@@ -333,8 +333,4 @@ footer {
     text-align: center;
     padding-bottom: 45px;
 
-}
-
-.line {
-    background-color: #070211;
 }
