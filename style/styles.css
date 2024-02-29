@@ -6,7 +6,9 @@
 
 }
 
-header, main {
+header,
+main,
+.foot {
     max-width: 1320px;
     width: 80%;
     margin: 0 auto;
@@ -240,4 +242,44 @@ textarea {
     background: #F00;
     padding: 20px 50px;
     margin-bottom: 80px;
+}
+
+
+/* footer section style */
+
+footer {
+    background: #070211;
+
+}
+
+.info-1, .info-2 {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.address, .contact, .rights , .unsubs{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.home-address, .number, .world , .rights-sp, .unsubs {
+    color: #FFF;
+
+    font-size: 18px;
+
+    font-weight: 500;
+    
+}
+
+.social{
+    padding-top: 45px;
+    text-align: center;
+    padding-bottom: 45px;
+    
+}
+
+hr{
+    color: #000;
 }
